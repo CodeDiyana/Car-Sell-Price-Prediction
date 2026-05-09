@@ -75,45 +75,13 @@ The dataset includes features related to technical and economic information of c
 <img src="https://i.imgur.com/xXg0cPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-  <h2>Normalization Practice::</h2>
+  <h2>Project Conclusion::</h2>
 
-  <br />
- a) 1NF Check:
-  <br/>All values are atomic (single values per cell). The table satisfies 1NF but has partial and transitive dependencies violating higher normal forms.  <br />
 
-  <br />
- b)Functional Dependencies
-: <br />
-  <br/>Book_ISBN → Book_Title, Publisher_ID, Publisher_Name  
-  <br />Author_ID → Author_Name 
-  <br /> Publisher_ID → Publisher_Name   
-   <br /> (Book_ISBN, Warehouse_Code) → Copies
- <br />
-
-   <br /> c & d) Normalization Steps with Tables
-
- <br />
-<img src="https://i.imgur.com/SSRmpRk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-2NF — Remove Partial Dependencies (attributes depending on only part of composite key):
-: <br/>
- <br />Book Table:  
- <br/>
-
-<img src="https://i.imgur.com/jTu7IRS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-3NF — Remove Transitive Dependency (Publisher_Name depends on Publisher_ID, not Book_ISBN):
- <br/>
- <br/>
  
- <br/>
-Publisher Table:
+ <br />
+Coming outcome from classification and clustering models shows that data analysis can have crucial rule in better decision making in car resale market. Based on results of classification model, features like year, Mileage have most effect on selling price. New cars with less Mileage have higher chance to be in high value category, also gearbox type is an important feature in setting car price, cars with automatic gearbox mostly have higher value than geared cars, this result is also aligned with logic of resale car market.
+Clustering analysis also help recognizing hidden patterns, cars based on common features divide into diffrent groups, every group presents diffrent part of market, these groups include cars with high value and low mileage, middle price cars with medium mileage and price, and old cars with high mileage and low value. This division can help car dealers or resale markets manage their available cars in a more purposeful way.
+ <br />
 
-<img src="https://i.imgur.com/rUhtoA8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-
-<img src="https://i.imgur.com/ZY8HiK1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 
