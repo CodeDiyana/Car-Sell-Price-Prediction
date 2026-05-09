@@ -4,7 +4,9 @@
 
 
 <h2>Description</h2>
-This project outlines the design and creation of a Book publishing system relational database that covers entity-relationship modelling, SQL table creation, business query design, and normalisation. The system handles books, authors, publishers and warehouses and all the relationships are represented in a normalised schema. To illustrate both theoretical knowledge and practice gained on the concept of relational databases.
+In this research, we used a real dataset on used cars, which was taken from the Kaggle website and collected based on used car ads on eBay. 
+The dataset includes features related to technical and economic information of cars. The main features include manufacturer (car brand), model, year of manufacture, mileage (vehicle usage rate), fuel type, transmission, and sales price. These features are among the most important factors affecting the value of used cars and have been used in many related studies and lectures. Sales price, predictive value analysis is the target of this project.
+
 <br />
 
 
