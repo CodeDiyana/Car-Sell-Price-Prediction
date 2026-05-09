@@ -13,40 +13,66 @@ The dataset includes features related to technical and economic information of c
 
 
 <h2>Program walk-through:</h2>
-:
-
-- <b>Entity–Relationship (ER) modeling</b> 
-- <b>SQL table creation (schema design)</b>
-- <b>Data population and insertion</b> 
-- <b>SQL queries for business insights (e.g., books by author, inventory counts, pricing analysis)</b>
-- <b>Constraints and indexing </b> 
-- <b>Aggregations using GROUP BY and conditional logic with CASE</b>
-- <b>Database normalization practices</b> 
 
 
+- <b>1.Data cleaning and renaming</b> 
+- <b>2.Visualizing:</b>
+- <b>Distribution of selling price</b> 
+- <b>Relationship between mileage and price</b>
+- <b>Price difference by fuel type or transmission </b> 
+- <b>Top 10 most common makes and their average resale price </b>
+- <b>3.Applying classification model whether a car is “High Value” or “Low Value.” (spliting data into test/train,Applying  logistic regression)
+</b> 
 
 
- <b>
-Entity–Relationship (ER) modeling <b>
- <b>SQL table creation (schema design) <b>
- <b>Data population and insertion <b>
- <b>SQL queries for business insights (e.g., books by author, inventory counts, pricing analysis) <b>
- <b>Constraints and indexing <b>
- <b>Aggregations using GROUP BY and conditional logic with CASE <b>
- <b>Database normalization practices <b>
- <b>Database</b> 
 
-<h2>Program walk-through:</h2>
 
+
+<h2>Program Visualizations::</h2>
+
+- <b>Distribution of selling price </b> 
 
 
 <p align="center">
-ER Diagram:
-The implementation of the type of relationships is achieved in the following way. Publisher and Book have One-to-Many (1:N) relationship whereby there are multiple books published by the same publisher but owned by a separate publisher and publications respect through the publisher using producer as a foreign key in the Book table. Two Many-to-Many (M:N) relations exist with a Book-Author relationship which can resolve using the book_author junction table and is composed of primary key (isbn, author_id); another one between Book and Warehouse including copies attribute 
-to keep track of the number of copies on-site. No One-to-One relationships in this case . There will be a total 
-  of six tables: publisher, author, warehouse, book, book author and book warehouse.
+
 <br/>
-<img src="https://i.imgur.com/nKjzAWw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1uVMLjm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+- <b>relationship between mileage and price </b> 
+
+
+<p align="center">
+
+<br/>
+<img src="https://i.imgur.com/lgHht9Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+ - <b>price difrence by fuel type </b> 
+
+
+<p align="center">
+
+<br/>
+<img src="https://i.imgur.com/3pcHVUk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+ - <b>price by transmission types </b> 
+
+
+<p align="center">
+
+<br/>
+<img src="https://i.imgur.com/QEN40SA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+ - <b> Top 10 repeated brand in datas and medium price of them </b> 
+
+
+<p align="center">
+
+<br/>
+<img src="https://i.imgur.com/xXg0cPK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
   <h2>Normalization Practice::</h2>
