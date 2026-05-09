@@ -28,7 +28,7 @@ The dataset includes features related to technical and economic information of c
 
 
 
-<h2>Program Visualizations::</h2>
+<h2>Program Visualizations:</h2>
 
 - <b>Distribution of selling price </b> 
 
